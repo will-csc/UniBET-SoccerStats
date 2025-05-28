@@ -1,0 +1,47 @@
+/* estilo.css */
+
+.card-custom {
+  background-color: #5a7b99; /* azul escuro de exemplo */
+  color: white;
+  border-radius: 12px;
+  padding: 10px 20px;
+  position: relative;
+  height: 100px;
+  min-width: 530px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.badge-odd {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #d3d3d3;
+  font-size: 0.8rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  color: black;
+}
+
+.icon-btn {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.icones-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+html, body {
+    overflow-y: hidden;
+    height: 100%;
+}
